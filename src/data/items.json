@@ -1,0 +1,5 @@
+[
+  { "id": "item_ration", "name": "Ração", "type": "consumable" },
+  { "id": "item_potion_hp", "name": "Poção de cura", "type": "consumable" },
+  { "id": "item_sword_basic", "name": "Espada simples", "type": "weapon", "slot": "weapon", "rarity": "common" }
+]

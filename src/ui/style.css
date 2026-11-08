@@ -1,0 +1,20 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: #14110f; color: #e8dcc8;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.screen { max-width: 480px; margin: 0 auto; padding: 16px; min-height: 100vh; }
+h1 { margin: 8px 0 0; color: #d9a441; }
+h2 { margin: 0 0 8px; font-size: 1.1rem; color: #c9b27c; }
+.sub { margin-top: 4px; opacity: .7; }
+section { background: #1f1a16; border: 1px solid #3d3228; border-radius: 8px; padding: 12px; margin-top: 16px; }
+ul { margin: 0; padding-left: 20px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; }
+button {
+  flex: 1 1 40%; min-height: 44px; background: #3a2a1c; color: #e8dcc8;
+  border: 1px solid #6b4f30; border-radius: 6px; font: inherit;
+}
+button:active { background: #55402a; }
+.msg { color: #e0a060; }
+@media (min-width: 900px) { .screen { margin-top: 24px; } }

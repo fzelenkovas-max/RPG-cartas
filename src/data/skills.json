@@ -1,0 +1,8 @@
+[
+  { "id": "skill_sword", "name": "Espada", "kind": "weapon" },
+  { "id": "skill_axe", "name": "Machado", "kind": "weapon" },
+  { "id": "skill_shield", "name": "Escudo", "kind": "defense" },
+  { "id": "skill_bow", "name": "Arco", "kind": "weapon" },
+  { "id": "skill_crossbow", "name": "Besta", "kind": "weapon" },
+  { "id": "skill_magic", "name": "Magia", "kind": "magic" }
+]
