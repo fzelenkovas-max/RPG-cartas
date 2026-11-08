@@ -1,0 +1,4 @@
+[
+  { "id": "mod_pre_hungry", "name": "Faminto", "slot": "prefix", "hpMult": 1.2, "attackMult": 1.2 },
+  { "id": "mod_suf_frost", "name": "da Geada", "slot": "suffix", "element": "ice" }
+]

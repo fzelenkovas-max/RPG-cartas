@@ -1,0 +1,10 @@
+[
+  { "id": "card_combat", "name": "Combate", "kind": "combat" },
+  { "id": "card_treasure", "name": "Tesouro", "kind": "treasure" },
+  { "id": "card_encounter", "name": "Encontro", "kind": "encounter" },
+  { "id": "card_trap", "name": "Armadilha", "kind": "trap" },
+  { "id": "card_camp", "name": "Acampamento", "kind": "camp" },
+  { "id": "card_merchant", "name": "Mercador errante", "kind": "merchant" },
+  { "id": "card_shrine", "name": "Santuário", "kind": "shrine" },
+  { "id": "card_quest_event", "name": "Evento de missão", "kind": "quest_event" }
+]

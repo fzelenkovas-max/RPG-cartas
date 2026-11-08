@@ -1,0 +1,5 @@
+[
+  { "id": "enemy_rat", "name": "Rato do porão", "family": "animal", "hp": 6, "attack": 2, "humanoid": false },
+  { "id": "enemy_wolf", "name": "Lobo", "family": "animal", "hp": 10, "attack": 3, "humanoid": false },
+  { "id": "enemy_skeleton", "name": "Esqueleto", "family": "undead", "hp": 12, "attack": 3, "humanoid": false }
+]

@@ -1,0 +1,3 @@
+[
+  { "id": "quest_rats", "name": "Praga no porão", "kind": "kill", "target": "enemy_rat", "amount": 5 }
+]
