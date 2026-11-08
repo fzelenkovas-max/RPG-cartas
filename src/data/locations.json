@@ -1,0 +1,11 @@
+[
+  { "id": "loc_gate", "name": "Portão da masmorra", "npc": "", "desc": "Escolha a masmorra e parta em expedição." },
+  { "id": "loc_elder", "name": "Casa do ancião", "npc": "Ancião", "desc": "Conselhos e histórias da região." },
+  { "id": "loc_smith", "name": "Ferraria", "npc": "Ferreiro", "desc": "Armas e reparos." },
+  { "id": "loc_armorer", "name": "Armoraria", "npc": "Armeiro", "desc": "Armaduras, elmos e escudos." },
+  { "id": "loc_alchemist", "name": "Alquimista", "npc": "Alquimista", "desc": "Poções feitas com ingredientes." },
+  { "id": "loc_merchant", "name": "Empório", "npc": "Comerciante", "desc": "Suprimentos e compra de achados." },
+  { "id": "loc_chest", "name": "Baú", "npc": "", "desc": "Guarde itens entre expedições." },
+  { "id": "loc_class_master", "name": "Mestre de classes", "npc": "Mestre", "desc": "Troca de classe e quests de classe." },
+  { "id": "loc_quest_board", "name": "Quadro de missões", "npc": "", "desc": "Trabalhos para quem tem coragem." }
+]

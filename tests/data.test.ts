@@ -18,3 +18,11 @@ describe('dados', () => {
     expect(validateData(bad).length).toBe(2);
   });
 });
+
+describe('dados da interface', () => {
+  it('vila tem o portão da masmorra e as 3 masmorras de tutorial', () => {
+    const d = loadGameData();
+    expect(d.locations.some((l) => l.id === 'loc_gate')).toBe(true);
+    expect(d.dungeons.filter((x) => x.tutorial).map((x) => x.id)).toEqual(['dun_cellar', 'dun_dark_forest', 'dun_old_crypt']);
+  });
+});

@@ -10,6 +10,8 @@ import encounters from '../data/encounters.json';
 import quests from '../data/quests.json';
 import skills from '../data/skills.json';
 import abilities from '../data/abilities.json';
+import locations from '../data/locations.json';
+import dungeons from '../data/dungeons.json';
 
 export interface Entry {
   id: string;
@@ -26,6 +28,8 @@ export interface GameData {
   quests: Entry[];
   skills: Entry[];
   abilities: Entry[];
+  locations: Entry[];
+  dungeons: Entry[];
 }
 
 export type DataKind = keyof GameData;
@@ -56,7 +60,7 @@ export function indexById(list: readonly Entry[]): Map<string, Entry> {
 }
 
 export function loadGameData(): GameData {
-  const data: GameData = { cards, enemies, modifiers, items, encounters, quests, skills, abilities } as GameData;
+  const data: GameData = { cards, enemies, modifiers, items, encounters, quests, skills, abilities, locations, dungeons } as GameData;
   const errors = validateData(data);
   if (errors.length) throw new Error('Dados inválidos:\n' + errors.join('\n'));
   return data;

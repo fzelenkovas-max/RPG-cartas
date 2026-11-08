@@ -1,0 +1,5 @@
+[
+  { "id": "dun_cellar", "name": "Porão dos ratos", "depth": 0, "tutorial": true, "desc": "Duas portas, combate e loot." },
+  { "id": "dun_dark_forest", "name": "Floresta sombria", "depth": 0, "tutorial": true, "desc": "Encontros, armadilhas e acampamento." },
+  { "id": "dun_old_crypt", "name": "Cripta antiga", "depth": 0, "tutorial": true, "desc": "Modificadores, pistas e o chefe do tutorial." }
+]
